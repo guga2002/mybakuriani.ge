@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ავტორიზაცია</title>
+    <link rel="Stylesheet" href="style/site.css">
+    <link rel="icon" href="images/logo/logomgzavrebi.png">
+</head>
+
+<body>
+    <header>
+        <!-- <a href="index.html">
+            <img src="images/crystall.jpg" height="230px" width="250px" style="border-radius: 30px;">
+
+        </a> -->
+        <div class="shesvla"><a href="signin.html"> შესვლა</a></div>
+        <div class="registracia"> <a href="registracia.html">რეგისტრაცია</a></div>
+
+    </header>
+    <div id="page">
+        <div id="p1">
+            <table height="50px" width="1205px" cellpadding="" cellspacing="">
+                <tr>
+                    <td>
+                        <a href="index.html">მთავარი</a>
+                    </td>
+                    <td><a href="aboutus.html">ჩვენს შესახებ</a></td>
+                    <td><a href="images/fb_logo.jpg" target="_blank">სიახლეები</a></td>
+                    <td><a href="javshani.html">დაჯავშნე ტური</a></td>
+                    <td><a href="contactus.html">კონტაქტი</a></td>
+                </tr>
+            </table>
+        </div>
+        <table height="50px" width="1200px" border="0">
+            <tr>
+                <td width="500" height="50" align="left">
+                    <font color="#ABABAB" size="5"><span>სასტუმრო მგზავრები</span></font>
+                </td>
+                <td width="500" height="50" align="right">
+                    <font color="#ABABAB" size="5"><span id="date"></span><span id="greets"></span></font>
+                </td>
+            </tr>
+        </table>
+        <div class="clk">
+
+            <center>
+                <h1> შეავსეთ ავტორიზაციის ფორმა </h1>
+            </center>
+            <form method="post" action="index.html">
+                <div class="container">
+                    <center>
+                        <label>მომხმარებელი : </label>
+                        <br/>
+                        <input type="text" id="login" placeholder="შეიყვანეთ მომხმარებლის სახელი" name="username" required>
+                        <br/>
+                        <br/>
+                        <label>პაროლი : </label>
+                        <br/>
+                        <input type="password" id="password" placeholder="შეიყვანეთ პაროლი" name="password" required>
+                        <br/>
+                        <br/>
+                        <label for="sign">აღარ მკითხო სხვადროს</label>
+                        <input type="checkbox" id="sign" checked="checked">
+                        <br/>
+                        <input type="reset" class="cancelbtn" value="გაუქმება">
+                        <br/>
+                        <button type="submit">შესვლა</button>
+                        <br/>
+                        <a href="#"> დაგავიწყდა პაროლი? </a></center>
+                </div>
+            </form>
+        </div>
+
+        <div class="fix">
+            <div class="footer">
+                <div class="coin">
+                    <a href="https://www.viber.com/" target="_blank"><img src="images/logo/vb.png" width="30" height="30"></img>
+                    </a>
+                    <a href="https://www.twitter.com/" target="_blank"><img src="images/logo/twt.png" width="30" height="30"></img>
+                    </a>
+                    <a href="https://www.facebook.com/" target="_blank"><img src="images/logo/fb.png" width="30" height="30"></img>
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank"><img src="images/logo/in.jpg" width="30" height="30"></img>
+                    </a>
+                    <a href="https://www.snapchat.com/" target="_blank"><img src="images/logo/sc.png" width="30" height="30"></img>
+                    </a>
+                </div>
+
+                <h4 id="footer1"></h4>
+                <h4 id="footer2"></h4>
+            </div>
+        </div>
+
+        <script src="slider.js"></script>
+        <script src="new.js"></script>
+    </div>
+
+</body>
+
+</html>
